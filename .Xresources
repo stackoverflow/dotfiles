@@ -59,7 +59,7 @@ rofi.lines: 5
 rofi.columns: 1
 !rofi.font: Noto Sans 14
 rofi.bw: 0
-rofi.padding: 600
+rofi.padding: 300
 rofi.fullscreen: true
 rofi.fake-background: background
 rofi.fake-transparency: true

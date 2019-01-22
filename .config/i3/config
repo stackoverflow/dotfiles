@@ -11,8 +11,6 @@
 
 set $mod Mod4
 
-set $wallpaper /home/islon/Pictures/widewallpappers/CwL81zT.jpg
-
 # set color variables
 # optional theme colorscheme
 set $grey                #212121
@@ -256,4 +254,4 @@ exec --no-startup-id xrandr --output eDP-1 --mode 1920x1080
 #exec --no-startup-id xrandr --output DP-2-2 --mode 2560x1440
 
 # wallpaper
-exec --no-startup-id feh --bg-fill $wallpaper
+exec --no-startup-id feh --bg-fill $WALLPAPER
