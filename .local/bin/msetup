@@ -1,7 +1,5 @@
 #!/bin/bash
 
-choice="$1"
-
 case "$1" in
     work)
         xrandr --output DP-2-1 --mode 2560x1440

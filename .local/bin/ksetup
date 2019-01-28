@@ -1,0 +1,9 @@
+#!/bin/bash
+
+case "$1" in
+    int)
+        setxkbmap -layout us -variant intl -option ctrl:nocaps    
+        ;;
+    *)
+        setxkbmap -layout us -option ctrl:nocaps
+esac
